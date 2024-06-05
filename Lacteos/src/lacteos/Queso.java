@@ -2,7 +2,7 @@ package lacteos;
 
 public class Queso {
 	
-	private String tipo_leche;
+	private String tipo;
 	private int cantidad_leche;
 	/*Se inserta en mililitros*/
 	private double peso;
@@ -15,7 +15,7 @@ public class Queso {
 	 */
 	public Queso(String tipo_leche, int cantidad_leche, double peso) {
 		super();
-		this.tipo_leche = tipo_leche;
+		this.tipo = tipo_leche;
 		this.cantidad_leche = cantidad_leche;
 		this.peso = peso;
 	}
@@ -31,14 +31,14 @@ public class Queso {
 	 * @return the tipo_leche
 	 */
 	public String getTipo_leche() {
-		return tipo_leche;
+		return tipo;
 	}
 
 	/**
 	 * @param tipo_leche the tipo_leche to set
 	 */
 	public void setTipo_leche(String tipo_leche) {
-		this.tipo_leche = tipo_leche;
+		this.tipo = tipo_leche;
 	}
 
 	/**
@@ -73,11 +73,11 @@ public class Queso {
 		System.out.println("Registro Sanitario No 52/38751");
 		System.out.println("Para consultar el lote del producto revise la etiqueta");
 		System.out.println("Peso: " + this.peso); System.out.println("Tipo de leche: " +
-		this.tipo_leche);
+		this.tipo);
 		System.out.println("Cantidad de leche: " + this.cantidad_leche); }
 	public void imprimir_detalle () {
 		System.out.println("Para consultar el lote del producto revise la etiqueta");
 		System.out.println("Peso: " + this.peso); System.out.println("Tipo de leche: " +
-		this.tipo_leche);
+		this.tipo);
 		System.out.println("Cantidad de leche: " + this.cantidad_leche); }
 }
