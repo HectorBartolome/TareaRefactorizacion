@@ -75,4 +75,9 @@ public class Queso {
 		System.out.println("Peso: " + this.peso); System.out.println("Tipo de leche: " +
 		this.tipo_leche);
 		System.out.println("Cantidad de leche: " + this.cantidad_leche); }
+	public void imprimir_detalle () {
+		System.out.println("Para consultar el lote del producto revise la etiqueta");
+		System.out.println("Peso: " + this.peso); System.out.println("Tipo de leche: " +
+		this.tipo_leche);
+		System.out.println("Cantidad de leche: " + this.cantidad_leche); }
 }
